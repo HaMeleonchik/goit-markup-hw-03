@@ -134,6 +134,7 @@ padding: 16px 32px;
 display: flex;
 margin: 0 auto;
 color: #ffffff;
+border: none;
 }
 
 
@@ -184,6 +185,13 @@ padding-top: 120px ;
     align-items: center;
     gap: 24px;
 }
+
+.principles-list{ 
+    display: flex;
+    align-items: center;
+
+}
+
 .principles-item{
 width:calc((100% - 72px)/4) ;
 }
@@ -195,7 +203,6 @@ margin-bottom: 8px;
 .Our-Team-div{
 background-color: #f4f4fd;
 padding-bottom: 120px;
-
 }
 
 .workers-list{
@@ -214,13 +221,8 @@ font-size: 36px;
 
 }
 
-.principles-list{ 
-    display: flex;
-    align-items: center;
-
-}
-.workers-item{
-width: calc((100% - 72px)/4);
+.team-list-item{
+    width: calc((100% - 72px)/4);
 
 }
 
