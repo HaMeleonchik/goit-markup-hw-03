@@ -257,9 +257,6 @@ letter-spacing: 0.02em;
     }
 
     .team-centertext{
-        min-width: 162px;
-        margin-bottom: 72px;
-        max-width: 162px;
         margin: 0 auto;
         font-weight: 700;
         font-size: 36px;
@@ -268,25 +265,30 @@ letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px; 
         }
 
 
-.Our-Team-div{
+.our-team-section{
 background-color: #f4f4fd;
 padding: 120px 0;
 }
 
-.workers-list{
-    display: flex ;
+.worker-list{
+    display: flex;
     gap: 24px;
 }
 
 
 .team-list-item{
+    width: calc((100% - 72px)/4);
     background-color: #ffffff;
     max-width: 264px;
    border-radius: 0 0 4px 4px;
-    width: calc((100% - 72px)/4);
+    box-shadow:
+     0 2px 1px 0 rgba(46, 47, 66, 0.08),
+     0 1px 1px 0 rgba(46, 47, 66, 0.16),
+     0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 
